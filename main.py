@@ -80,8 +80,8 @@ def evaluate(model, xv, yv):
 PARAM_GRID = list(product(
     range(16, 68, 4),  # k1
     range(16, 68, 4),  # k2
-    range(32, 136, 8),  # k3
-    range(32, 136, 8),  # k4
+    range(32, 136, 8),  # d1
+    range(32, 136, 8),  # d2
 ))
 SCOREFILE = osp.expanduser('./mnist_scores.csv')
 
