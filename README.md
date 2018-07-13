@@ -1,3 +1,5 @@
+## Basic example
+
 This is a basic hyperparameter search example, intended for execution on a
 GPU-endowed cluster like Graham or Cedar.
 
@@ -12,3 +14,6 @@ $ source venv/bin/activate
 Then submit the training script as follows:
 
 $ sbatch submit.sh
+
+
+## Incremental architecture search

@@ -5,4 +5,4 @@
 #SBATCH --array=0-3
 
 source ./venv/bin/activate
-python main.py
+python array_job.py
